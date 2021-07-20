@@ -126,7 +126,7 @@ async function doClear() {
 async function doExit() {
     if (is_sudo) {
         is_sudo = false;
-        terminal.setPrompt("Guest@edufdez-es:~$ ");
+        terminal.setPrompt("Guest@Thilanka_D3V-L0K:~$ ");
     } else {
         await print("Bye!");
         console.log("I can't close this, I am JavaScript and do not have permissions to do that.");
@@ -196,7 +196,7 @@ async function doSudo(command) {
         if (words[1] == null || words[1] == "su") {
             is_sudo = true;
 
-            terminal.setPrompt("Guest@edufdez-es:~# ");
+            terminal.setPrompt("Guest@eThilanka_D3V-L0K:~# ");
             await print("You have now Super Cow Powers.");
         } else {
             // if it is a command with sudo
