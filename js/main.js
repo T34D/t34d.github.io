@@ -6,7 +6,7 @@ var HISTORY_LAST = HISTORY.length;
 var FILE_LIST = [
     ".",
     "..",
-    "about-me",
+    "whoami",
     "header",
     "socials",
     "me.png"
@@ -196,7 +196,7 @@ async function doSudo(command) {
         if (words[1] == null || words[1] == "su") {
             is_sudo = true;
 
-            terminal.setPrompt("Guest@eThilanka_D3V-L0K:~# ");
+            terminal.setPrompt("Root@Thilanka_D3V-L0K:~# ");
             await print("You have now Super Cow Powers.");
         } else {
             // if it is a command with sudo
