@@ -8,7 +8,7 @@ var FILE_LIST = [
     "..",
     "whoami",
     "header",
-    "socials",
+    "social",
     "me.png"
 ];
 
